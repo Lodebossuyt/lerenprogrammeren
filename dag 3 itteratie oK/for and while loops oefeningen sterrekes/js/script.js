@@ -8,6 +8,7 @@ var resultaat = "";
 for(i;i>0;i--){
    resultaat = resultaat + ster;
    console.log(resultaat);
-   document.getElementById("demo").innerHTML = resultaat;
+   document.writeln(resultaat);
 }
 
+document.getElementById("demo").innerHTML = resultaat;
