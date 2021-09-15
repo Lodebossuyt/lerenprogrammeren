@@ -10,3 +10,4 @@ for(i;i <= aantalGetallen;i++ ){
    resultaat = resultaat + getal;
 }
 console.log("de totale som van" + aantalGetallen + "getallen is" + resultaat);
+document.getElementById("demo").innerHTML = "de totale som van" + aantalGetallen + "getallen is" + resultaat;
