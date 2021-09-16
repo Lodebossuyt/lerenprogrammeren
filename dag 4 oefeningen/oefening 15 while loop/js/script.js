@@ -7,3 +7,4 @@ while(i<=hoeveelGetallen){
     i++;
 }
 console.log("de som van de getallen is", resultaat);
+console.log("het gemiddelde van deze getalle is",(resultaat/hoeveelGetallen));
